@@ -10,4 +10,4 @@ var cadena = "2+2";
 }
 
 eval(cadena);*/
-document.writ(eval(cadena));
+document.write(eval(cadena));
