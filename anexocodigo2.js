@@ -1,5 +1,4 @@
 //Candela Lucena
-
 function formularioVacio() {
     
     //Obtener el DNI puesto
@@ -15,5 +14,4 @@ function formularioVacio() {
     
     //Enviar si el DNI esta vacio o no
     document.getElementById("texto").innerHTML = mensaje;
-   
 }
