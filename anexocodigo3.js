@@ -1,11 +1,14 @@
-//Candela Lucena
+//Candela Lucena campo de texto
+
 var valor = 0;
-alert(valor);
-function sumar() {
+var resultado = document.getElementById("resultado");
+
+function sumar(){
    valor = valor + 10;
-   alert(valor);
+   resultado.innerHTML = valor;
 }
 function ponerValorCero(){
     valor = 0;
-    alert(valor);
+    resultado.innerHTML = valor;
 }
+
