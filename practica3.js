@@ -6,8 +6,11 @@ function colorRojo(){
 function colorVerde(){
     div.style.backgroundColor = "green";
 }
-function colorAzul(){
+function colorAzul() {
     div.style.backgroundColor = "blue";
+}
+function colorWhite() {
+    div.style.backgroundColor = "white";
 }
 /*
 var rojo = document.getElementById("rojo");
