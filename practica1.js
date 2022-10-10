@@ -9,27 +9,25 @@ function insertarParrafo(){
     var parrafo = document.createElement('p');
     var texto = document.createTextNode('Párrafo insertado');
     parrafo.appendChild(texto);
-    document.getElementsByTagName('p')[0].appendChild(parrafo);
+    var posicion = document.getElementById('divisor').getElementsByTagName('p')[1];
+    document.getElementById("divisor").insertBefore(parrafo, posicion);
 }
-/*replaceChild
+
 function reemplazarParrafo(){
+    //posicion.innerHTML = "Parrafo reemplazado"
     var parrafo = document.createElement('p');
     var texto = document.createTextNode('Párrafo reemplazado');
     parrafo.appendChild(texto);
-    document.getElementsByTagName('p')[1].appendChild(parrafo);
+    var posicion = document.getElementById("divisor").getElementsByTagName('p')[1];
+    document.getElementById("divisor").replaceChild(parrafo,posicion);
 }
-/*
+
 function borrarParrafo(){
-    var parrafo = document.createElement('p');
-    var texto = document.createTextNode('Párrafo añadido.');
-    parrafo.appendChild(texto);
-    document.getElementById('ej-aCh').appendChild(parrafo)
+    var posicion = document.getElementsByTagName("p")[1];  
+    document.getElementById('divisor').removeChild(posicion);
 }
 
 function clonar(){
-    var parrafo = document.createElement('p');
-    var texto = document.createTextNode('Párrafo añadido.');
-    parrafo.appendChild(texto);
-    document.getElementById('ej-aCh').appendChild(parrafo)
+    var clon = document.getElementById('divisor').cloneNode(true);
+    document.getElementById('divisor').appendChild(clon);
 }
-*/
