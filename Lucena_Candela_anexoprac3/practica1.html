@@ -3,20 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>El primer script</title>
-
-<script type="text/javascript" src="anexocodigo2.js"></script>
 </head>
-
 <body>
-    <noscript>La página no se muestra de forma correcta</noscript>
-
-    <p>Introduzca tu DNI:</p>
-
-    <form id = "Formulario">
+    <noscript>La página no se muestra de forma correcta
+    </noscript>
+    <form id = "Formulario" >
         <input type="text" name = "dni2" id = "dni"> 
-        <button value ="Envia" onclick="formularioVacio()">Envia</button>
+        <button  id="Envia" onclick="formularioVacio()">Envia</button>
     </form>
-
-    <p id="texto"></p>
+    <div id="primerDiv">
+        <p>Introduce tu DNI</p>
+        <p id="texto"></p>
+    </div>
+    <script type="text/javascript" src="practica1.js"></script>
 </body>
 </html>
