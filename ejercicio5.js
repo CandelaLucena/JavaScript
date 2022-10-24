@@ -3,5 +3,9 @@ window.onlodad = function(){
   input.addEventListener("Keypress", comprobar);
 }
 function comprobar(evento){
-  //if()
+  if(evento.key){
+
+  }else{
+    evento.preventDefault();
+  }
 }
