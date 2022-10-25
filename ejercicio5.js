@@ -1,11 +1,12 @@
-window.onlodad = function(){
+window.onload = function(){
   var input = document.getElementById("dni");
-  input.addEventListener("Keypress", comprobar);
+  input.addEventListener("keydown", comprobar);
 }
-function comprobar(evento){
-  if(evento.key){
 
-  }else{
+function comprobar(evento){
+  if(isNaN(evento.key)){
     evento.preventDefault();
+  }else{
   }
 }
+
