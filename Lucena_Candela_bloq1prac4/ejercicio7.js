@@ -17,5 +17,6 @@ window.onload = function() {
 }
 
 window.onbeforeunload = function() {
+    //No funciona bien del todo
     alert("Página cancelada");
 }

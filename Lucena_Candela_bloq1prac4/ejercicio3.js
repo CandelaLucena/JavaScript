@@ -1,5 +1,5 @@
-function resalta(){
-    var evento = this.event || window.event;
+function resalta(evento){
+    //var evento = this.event || window.event;
     switch(evento.type) {
         case "mouseover":
             this.style.fontSize = "20pt";
@@ -10,7 +10,6 @@ function resalta(){
     }
 }
 window.onload =  function(){
-    var seccion = document.getElementById("seccion");
-    seccion.addEventListener("mouseover",resalta);
-    seccion.addEventListener("mouseout", resalta);
+    document.getElementById("seccion").onmouseover = resalta;
+    document.getElementById("seccion").onmouseout = resalta;
 }
