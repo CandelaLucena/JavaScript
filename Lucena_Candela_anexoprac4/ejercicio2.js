@@ -3,6 +3,6 @@ window.onload = function(){
   enlace.addEventListener("click", parar);
 }
     
-function parar(){
+function parar(event){
     event.preventDefault();
 }

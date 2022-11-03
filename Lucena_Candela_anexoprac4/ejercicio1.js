@@ -3,7 +3,7 @@ window.onload = function(){
   formulario.addEventListener("submit", comprobar);
 }
   
-function comprobar(){
+function comprobar(event){
   //Para hacerlo de forma general seria con TagName y asignar el evento a cada input
   var input1 = document.getElementById("stringNombre");
   var input2 = document.getElementById("stringApellido");
