@@ -30,6 +30,7 @@
         <input type="radio" value="mujer" name="preguntamujer" id="pregunta_mujer"/> Mujer
         <br>
         Incluir mi foto:
+        <input type="file" id="img" name="img" accept="image/*">
         <br>
         Enviar publicidad:
         <input type="checkbox" value="publicidad" name="publicidad" id="publicidad"/>
@@ -43,10 +44,10 @@
         <br>
         Observaciones:
         <br>
-        <textarea id="parrafo"></textarea>
+        <textarea id="parrafo" rows="10" cols="40"></textarea>
         <br>
         <button type="submit" id="botonEnviar">Guardar Cambios</button>
-        <button type="submit" id="botonEnviar">Borrar Datos</button>
+        <button id="botonReseteo">Borrar Datos</button>
     </form>
     <script type="text/javascript" src="ejercicio1.js"></script>
 </body>
