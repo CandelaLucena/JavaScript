@@ -2,7 +2,7 @@ window.onload = function(){
   document.getElementById("stringNombre").focus();
 
   var opciones = document.getElementById("opcionesAficcion");
-  opciones.addEventListener("onchange", listar)
+  opciones.addEventListener("change", listar)
 
   var formulario = document.getElementById("formulario");
   formulario.addEventListener("submit", comprobar);
@@ -19,8 +19,8 @@ function listar(event){
   var lista = document.getElementsByTagName("option");
 
   alert("La lista mide: "+lista.length+
-        "Has elegido la opcion: "+event+
-        "El valor del indice es: "+event.value);
+        "Has elegido la opcion: "+this.value+
+        "El valor del indice es: "+event.target.selectedIndex);
 }
 
 function comprobar(event){
@@ -28,8 +28,7 @@ function comprobar(event){
   var input1 = document.getElementById("integerTelefono");
   var input2 = document.getElementById("integerDni");
   //comprobar si la expresion esta bien o mal
-  expresion = new RegExp("^[1-9]\d{9}\.");
-  if(input1.value.match(expresion) || input2.value==""){
+  if( !(/^\d{9}$/.test(input1.value)) || input2.value==""){
     alert("No envió");
     event.preventDefault();
   }else{
