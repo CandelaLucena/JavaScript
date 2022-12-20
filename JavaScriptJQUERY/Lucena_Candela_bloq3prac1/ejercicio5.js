@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    $("p").mouseout(function(){
+    $("p").mouseover(function(){
         $("p").addClass("clasecss");
     });
 
-    $("p").mouseover(function(){
+    $("p").mouseout(function(){
         $("p").removeClass("clasecss");
     });
 })
