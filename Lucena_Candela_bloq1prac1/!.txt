@@ -1,0 +1,17 @@
+1.- Introducir 5 números. Calcular la suma de todos ellos. Decir cuántos de ellos
+    son mayores de 100.
+2.- Almacena en un array los números 7,8,2,9,10. Calcular la suma de los
+    números mayores de 8.
+3.- Introducir un mes y decir a que estación pertenece:
+    Ej: Dime un mes: enero
+    Estamos en Invierno
+    (Nota: No hace falta ninguna comprobación. Los meses
+    diciembre,enero,febrero serán invierno, marzo,abril y mayo serán primavera,
+    junio,julio y agosto serán verano y septiembre,octubre y noviembre será
+    otoño).
+4.- Introducir un número y decir si es par o impar.
+5.- Introducir el precio de un articulo. Calcular el iva y el precio total(con el iva
+    incluido) que debe salir redondeado a dos decimales.
+6.- Introducir una cadena. Decir la longitud de la cadena. Pasarla a mayúsculas y
+    a minúsculas. Mostrar cada palabra de la cadena por separado primero
+    normal y después al revés

@@ -1,0 +1,34 @@
+1.- Crear las siguientes capas(div) con el texto:
+    Primera capa del documento
+    Segunda capa del documento
+    Tercera capa del documento
+    Utilizando el método size() de jQuery muestra con alert el número de capas que hemos creado.
+    Aplicando estilos cambia el color de la letra de todas las capas para que salga en verde.
+2.- Inicialmente muestra en pantalla una imagen y dos botones “Mostrar Imagen” y “Ocultar
+    Imagen”. Al pinchar sobre el botón de “Mostrar Imagen” debe aparecer una imagen con efecto
+    Página 4 de 5
+    show(2500) y al pinchar sobre “Ocultar Imagen” debe desaparecer la imagen con efecto
+    hide(“slow”).
+3.- Crea un párrafo con el siguiente texto:
+    Este párrafo cambiará de color según el valor del radio seleccionado.
+    Añade tres botones de tipo radio con los colores: rojo,azul y verde. Los radio serán excluyentes
+    sólo puedo elegir una opción de las tres.
+    Cuando seleccione un radio el color de fondo del párrafo cambiará a rojo, azul o verde , según
+    el valor del radio escogido.
+4.- Crea un formulario que contendrá inicialmente dos campos de texto y un checkbox. En los
+    campos de texto introduciremos dos números para sumarlos. Si activamos el checkbox nos
+    debe crear dinámicamente un nuevo campo de tipo texto en el que mostraremos el resultado
+    de la suma de los dos números. Si desactivamos el checkbox el nuevo campo que hemos
+    creado debe desaparecer.
+    Nota: En versiones superiores de la librería el método attr(“checked”) no funciona
+    correctamente, hay que sustituir el “attr” por “prop”
+5.- Crea un párrafo con el siguiente texto:
+    Este párrafo cambiará de tamaño al pasar el ratón por encima
+    Utilizando clases, crea una clase para que cada vez que pases con el ratón por encima del
+    párrafo cambie de tamaño a 16pt, cuando salgamos con el ratón del párrafo debe volver a su
+    tamaño inicial.
+6.- Muestra una imagen y aplica los siguientes efectos utilizando el Callback de funciones de
+    jQuery.
+    fadeOut(2000),
+    slideDown(3000)
+    slideUp(1000);

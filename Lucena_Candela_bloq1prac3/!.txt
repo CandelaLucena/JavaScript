@@ -1,0 +1,32 @@
+1.- Crear una página HTML con un párrafo inicial con el texto “Este es mi primer
+    párrafo” y cuatro botones.
+    • Añadir párrafo: Añadirá el párrafo con el texto “Párrafo añadido” detrás del
+    último párrafo creado.
+    • Insertar párrafo: Insertará el párrafo con el texto “Párrafo insertado” detrás
+    del primer párrafo (“Este es mi primer párrafo”).
+    • Reemplazar párrafo: Cambiará el texto del segundo párrafo (el siguiente a
+    “Este es mi primer párrafo”) por “Párrafo reemplazado”.
+    • Borrar párrafo: Eliminará el párrafo que haya detrás de “Este es mi primer
+    párrafo”.
+    • Clonar div: Duplicará (clonará) toda la estructura div que tengamos creada en
+    el momento que pinchemos el botón.
+2.- Crear una página HTML con una lista desordenada inicial con tres animales (ver
+    captura de pantalla). Los botones funcionarán igual que en el ejercicio anterior pero
+    con los elementos de la lista(el nombre del animal a añadir o reemplazar es libre).
+    El botón “Crear Sublista dentro de león con funciones DOM” creará una nueva lista
+    desordenada dentro del primer elemento (ver captura de pantalla). El botón “Crear
+    Sublista dentro de león con InnerHTML” hará lo mismo que el anterior pero
+    utilizando esta propiedad.
+3.- Crea una página HTML con un div con el texto “ Bienvenido a esta página de
+    prueba de colores” que aparecerá inicialmente en blanco. La página contendrá tres
+    botones y al pinchar sobre ellos cambiará el fondo del div.
+    Azul: Cambiará el fondo de la pantalla a azul.
+    Verde: Cambiará el fondo de la pantalla a verde.
+    Restaurar color inicial: Dejará el fondo de la pantalla a blanco
+4.- Crea una página HTML que contenga varias imágenes y enlaces. La página
+    tendrá un botón con el texto “Número de Imágenes” y otro con el texto “Número de
+    enlaces”. Al pinchar sobre el primer botón debe salir un mensaje con alert que nos
+    diga el número total de imágenes que tiene la página y al pinchar sobre el segundo
+    botón debe salir un mensaje con alert que nos diga el número total de enlaces.
+5.- Crea un elemento (el que tú quieras, por ejemplo una caja de texto) y dale
+    atributos.

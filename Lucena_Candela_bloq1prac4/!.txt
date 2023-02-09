@@ -1,0 +1,26 @@
+1.- Pon en un div el siguiente texto: “Al pasar por encima de este texto cambiará de
+    tamaño”. Este texto inicialmente tendrá un tamaño de 12pt, cuando pasemos por
+    encima de él, aumentará a 16 pt y cuando salgamos volverá al tamaño original. Haz
+    el ejercicio utilizando funciones externas y “this”.
+2.- Haz el ejercicio anterior pero utilizando la estructura semántica para construir y
+    llamar al evento.
+3.- Realiza el mismo ejercicio utilizando el objeto event para que en función del tipo
+    de evento aumente o disminuya el tamaño de la letra.
+    Página 2 de 4
+4.- Por último realizamos el ejercicio con attachEvent y con addEventListener.
+    Utiliza algún método o función para que sirva a la vez para Internet Explorer y para
+    el resto de navegadores.
+5.- Crea un formulario con un campo de texto que sólo permita la introducción de
+    números. Debéis utilizar el evento onKeypress y las propiedades keyCode y
+    charCode para controlar que los valores introducidos sean correctos.
+6.- Crear una página con varios botones para que cada vez que se pulse en uno de
+    ellos salgael mensaje “Has pulsado sobre un botón”(no sabemos el número de
+    botones que puede haber,no se puede hacer de forma estática poniendo cada uno
+    los botones que quiera y su onclick,sino que hay que hacerlo para cualquier
+    página).
+7.- Siguiendo el ejemplo del tema 8 (punto 8.1-Relojes,contadores e intervalos de
+    tiempo), crea una página que muestre el reloj creado. Además debe aparecer
+    inicialmente cuándo se cargue la página un mensaje (con alert) que nos diga
+    “Página que contiene un reloj digital”, también controlaremos que se si se
+    abandona la página(por ejemplo volviendo al home) debe aparecer un mensaje (con
+    alert) con el mensaje “Página cancelada”.

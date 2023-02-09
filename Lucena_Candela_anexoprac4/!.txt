@@ -1,0 +1,4 @@
+1.- Crear un formulario con tres campos. Cancela el envío del mismo mientras haya algún campo vacío
+    Muestra un mensaje de la cancelación del envío y otro cuando este se produzca.
+2.- Crea un documento con un link . Evita que se produzca el comportamiento normal y que al hacer clic
+    sobre el enlace este no vaya al sitio indicado.

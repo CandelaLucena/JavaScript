@@ -1,0 +1,37 @@
+1.- Introducir el precio de un artículo. Calcular el iva y el precio total(con el iva incluido) que
+    debe salir redondeado a dos decimales. Debéis utilizar una función.
+2.- Introducir un mes y decir a que estación pertenece:
+    Ej: Dime un mes: enero
+    Estamos en Invierno
+    (Nota: No hace falta ninguna comprobación. Los meses diciembre,enero,febrero serán
+    invierno, marzo,abril y mayo serán primavera, junio,julio y agosto serán verano y
+    septiembre,octubre y noviembre será otoño). Utilizar la estructura switch para resolver
+    este ejercicio.
+3.- Crear una página web que nos muestre el mensaje “Bienvenido a mi página” con
+    formato H1, nos muestre la plataforma del navegador que estamos utilizando, y con la
+    ventana de Confirm nos pida si queremos continuar. En caso de que así sea saldrá en
+    pantalla el mensaje “continuamos...”
+4.- Crear un programa que nos permita redimensionar la pantalla con el método resize a
+    500x500 en caso de que sea Internet Explorer, si es otro navegador que salga el
+    mensaje “Operación no permitida con este navegador”.
+5.- Crear una página con el botón “Fecha Actual”. Al pinchar sobre el botón debe salir la
+    fecha actual del sistema pero con el día y el mes en letra. Ejemplo:
+    Lunes, 15 de Octubre de 2012
+6.- Crear una página con el botón “Hora Actual”.Al pinchar sobre el botón debe salir un
+    mensaje del tipo:
+    Buenos días, son las 12:30 horas
+    El saludo debe variar según la hora del día. Buenos días hasta las 14:00horas, Buenas
+    tardes hasta las 20:00 y a partir de esta hora debe salir Buenas noches.
+7.- Crea una página con tres botones con el texto Azul,Verde y Rojo. Al pinchar sobre cada
+    botón debe cambiar el fondo de la página al color indicado. Utilizaremos el evento
+    onclick , en temas posteriores veremos otros eventos.
+8.- Mostrar en pantalla un documento que nos muestre:
+     La URL del documento actual.
+     El pathname de la página (corresponde a la cadena que sigue al nombre del
+    servidor).
+     El protocolo utilizado por la página web.
+    Debéis insertar también un botón para que al pinchar sobre él se cargue la página de
+    Google.
+9.- Crear una página que contendrá el botón Abrir . Al pinchar sobre el botón debe aparecer
+    otra ventana que contendrá, a su vez, el botón Cerrar. Al pinchar sobre él debemos
+    volver a la página inicial.

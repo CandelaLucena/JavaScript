@@ -1,0 +1,15 @@
+1.- Crea una página web que contenga un hipervínculo. Cada vez que el ratón pase por encima
+    del enlace debe salir un alert avisándonos que estamos encima de un hipervínculo.
+2.- Crea un formulario básico con el campo dni y el botón enviar. Si el usuario deja el campo
+    dni vacio saldrá un alert con un mensaje indicándonos que el campo no tiene datos al pulsar el
+    botón de enviar.
+3.- Crear un caja de texto con un valor inicial de 0, y dos botones : Sumar e Inicializar. Cada
+    vez que pinchemos sobre el botón Sumar se irá incrementando el valor del campo de 10 en 10,
+    si pinchamos sobre el botón Inicializar el valor del campo pasará a ser 0.
+4.- Introduce un número del 1 al 10. Genera un número aleatoriamente, si el número
+    introducido en igual al generado que salga un mensaje felicitándonos y si no es así nos debe
+    avisar que hemos fallado.
+5.- Crea un documento que al cargarse nos muestre un mensaje de Bienvenida. Pasados 20
+    segundos nos debe abrir otro nuevo documento.
+6.- Partiendo de la cadena de texto: cadena=”2+2”, utilizando la función eval ejecuta la cadena
+    para nos muestre la suma.
